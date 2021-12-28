@@ -1,4 +1,3 @@
-# https://github.com/romkatv/powerlevel10k
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -35,6 +34,8 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "mafredri/zsh-async", from:github
 
 # テーマ
+# https://github.com/romkatv/powerlevel10k
+# Type `p10k configure` to generate your own config for powerlevel10k.
 zplug "romkatv/powerlevel10k", use:powerlevel10k.zsh-theme, as:theme
 
 # コマンドをハイライトしてくれる
